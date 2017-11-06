@@ -1,0 +1,20 @@
+{
+  "name": "sysinfoapp",
+  "version": "1.0.0",
+  "description": "Simple system info/monitor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "install": "electron-rebuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phil Kloc",
+  "license": "ISC",
+  "devDependencies": {    
+    "electron-rebuild": "^1.6.0"
+  },
+  "dependencies": {
+    "electron": "^1.7.9",
+    "serialport": "^6.0.4"
+  }
+}
